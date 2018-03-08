@@ -1,0 +1,30 @@
+/*    Color Palette: Novik    */
+
+$primary-color: #a7d2a8;
+$accent-color:  #93abb2;
+$ground-color:  #cbcbcb;
+
+$success-color: green;      // incorrect, needs to be defined by design
+$warning-color: #f8ab53;
+$danger-color:  #e26f6f;
+$info-color:    blue;      // incorrect, needs to be defined by design
+
+/*
+  // Alert colors based on $primary-color
+  $success-color: #e0f0bf;
+  $warning-color: #ffe2cb;
+  $danger-color:  #ffcbcb;
+  $info-color:    #83a5a5;
+
+  // Alert colors based on $warning-color
+  $success-color: #3bb16e;
+  $warning-color: $warning-color;   // substitute could be: #f8ca53
+  $danger-color:  #f87553;
+  $info-color:    #3a7d9d;
+
+  // Alert colors based on danger-color
+  $success-color: #59b559;
+  $warning-color: #e2a36f;
+  $danger-color:  $danger-color;  // substitute could be: #
+  $info-color:    #438888;
+*/

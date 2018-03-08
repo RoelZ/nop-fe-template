@@ -1,0 +1,35 @@
+@import "colors";
+
+/* Base colors */
+$primary-darken-10:  darken($primary-color, 10);
+$primary-darken-20:  darken($primary-color, 20);
+$primary-lighten-10: lighten($primary-color, 10);
+$primary-lighten-20: lighten($primary-color, 20);
+
+$accent-darken-10:   darken($accent-color, 10);
+$accent-darken-20:   darken($accent-color, 20);
+$accent-lighten-10:  lighten($accent-color, 10);
+$accent-lighten-20:  lighten($accent-color, 20);
+
+$ground-darken-10:   darken($ground-color, 10);
+$ground-darken-30:   darken($ground-color, 30);
+$ground-darken-40:   darken($ground-color, 40);
+$ground-lighten-5:   lighten($ground-color, 5);
+$ground-lighten-10:  lighten($ground-color, 10);
+$ground-lighten-15:  lighten($ground-color, 15);
+
+/* Alert colors */
+$success-darken-10:   darken($success-color, 10);
+$success-darken-20:   darken($success-color, 20);
+$success-lighten-10:  lighten($success-color, 10);
+$success-lighten-20:  lighten($success-color, 20);
+
+$warning-darken-10:   darken($warning-color, 10);
+$warning-darken-20:   darken($warning-color, 20);
+$warning-lighten-10:  lighten($warning-color, 10);
+$warning-lighten-20:  lighten($warning-color, 20);
+
+$danger-darken-10:   darken($danger-color, 10);
+$danger-darken-20:   darken($danger-color, 20);
+$danger-lighten-10:  lighten($danger-color, 10);
+$danger-lighten-20:  lighten($danger-color, 20);

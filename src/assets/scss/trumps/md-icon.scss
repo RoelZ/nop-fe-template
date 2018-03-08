@@ -1,0 +1,9 @@
+.md-button-content {
+  .md-icon-font {
+    &.md-success { color: $success-color; }
+    &.md-warning { color: $warning-color; }
+    &.md-alert   { color: $danger-color;  }
+  }
+}
+
+.md-toolbar .md-field.md-theme-default:after { background-color:rgba(0,0,0,0); }

@@ -30,6 +30,8 @@ Vue.use(VueRouter);
 
 import Login from './pages/loginForm'
 import Dashboard from './pages/dashBoard'
+import Search from './pages/search'
+import Claims from './pages/claims'
 
 const router = new VueRouter({
     routes: [
@@ -38,6 +40,12 @@ const router = new VueRouter({
         },
         {
           path: '/dashboard', component: Dashboard, name: 'Dashboard'
+        },
+        {
+            path: '/search', component: Search, name: 'Search'
+        },
+        {
+            path: '/claims/:claimID/campaign/:campaignID/', component: Claims, name: 'Claims', props: true
         }
     ]
 });

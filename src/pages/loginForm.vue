@@ -1,11 +1,14 @@
 <template>
-  <div class="md-layout md-gutter md-alignment-center">
+  <div>
+    <md-progress-bar md-mode="indeterminate" v-if="sending" />
+
+    <div class="login-panel md-layout md-alignment-center">
 
     <form novalidate @submit.prevent="validateUser">
 
-      <div class="md-layout md-gutter md-alignment-center">
+      <div class="md-layout-item md-layout md-alignment-center">
         <div class="md-layout-item md-size-50">
-          <img src="../assets/logo-full.png">
+          <img src="../assets/media/images/logo-full.png">
         </div>
       </div>
 
@@ -27,20 +30,17 @@
 
       <md-button type="submit" class="md-raised md-primary" :disabled="sending">Login</md-button>
 
-      <md-progress-bar md-mode="indeterminate" v-if="sending" />
-
-
-    <div class="md-layout md-gutter">
-      <div class="md-layout-item">
-        <router-link to="/dashboard">Forgot your username of password?</router-link>
+      <div class="md-layout md-alignment-center-space-around">
+        <div class="md-layout-item">
+          <router-link to="/dashboard">Forgot your username of password?</router-link>
+        </div>
       </div>
-    </div>
 
-    <md-snackbar :md-active.sync="userSaved">The user {{ lastUser }} was logged in with success!</md-snackbar>
+      <md-snackbar :md-active.sync="userSaved">The user {{ lastUser }} was logged in with success!</md-snackbar>
 
     </form>
 
-
+    </div>
   </div>
 </template>
 

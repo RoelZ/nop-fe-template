@@ -1,0 +1,19 @@
+@import url("//fonts.googleapis.com/css?family=Material+Icons");
+
+$font-family-text:    'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-display: $font-family-text;                                            // needs to be defined for heading
+$font-family-code:    'Courier New', Courier, monospace;
+
+$font-weight-light:   300;
+$font-weight-regular: 400;
+$font-weight-bold:    500;
+
+$font-size:           16px;
+$line-height:         $font-size * 1.6;
+
+$h1-size:             $font-size * 2.25;
+$h2-size:             $font-size * 1.875;
+$h3-size:             $font-size * 1.5;
+$h4-size:             $font-size * 1.125;
+$h5-size:             $font-size * 0.875;
+$h6-size:             $font-size * 0.75;
